@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+#main-content {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    display: flex;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#grid {
+    display: flex;
+    width: 30em;
+    height: 30em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    margin: 0;
+}
+
+.grey {
+    background-color: grey;
+}
+
+
+.blue {
+    background-color: lightskyblue;
+}
+
+.x-o {
+    font-size: 10em;
+}
+
+* {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
